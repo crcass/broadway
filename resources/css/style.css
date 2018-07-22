@@ -5,6 +5,8 @@ html {
 
 .home, h4 {
   background-image: url(../../resources/images/the-flatiron-building.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 h1 {
@@ -13,9 +15,12 @@ h1 {
   color: white;
 }
 
-a {
+.nav {
 font-size: 18px;
-color: white;
+}
+
+a {
+  color: white;
 }
 
 h2 {
@@ -38,9 +43,9 @@ h4 {
   color: white;
 }
 
-footer {
+.footer {
   text-align: left;
-  font-size 11px;
+  font-size: 11px;
   color: white;
   background-color: dimgray;
 }
